@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: url("../images/funky-lines.png");
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1 {
+    font-size: 24px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 25px;
+
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 17px;
+    padding: 5px;
+
+
+}
+
+a {
+    color: #4aaaa5;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(255, 145, 0);
+}
+
+a:active {
+    color: black;
+}
+
+#header{
+    background-color: #ffffff;
+    margin: 0, 0, 20px;
+    font-size:14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    border-bottom: 1.5px solid #cccccc;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+#logo {
+    width: 250px;
+    height: 75px;
+    background-color: #4aaaa5;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 75px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #777777;
+    text-decoration: none;
+    margin-left: 10px;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+#my-pic {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+p:first-of-type{
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+#main-page {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 30px;
+    padding: 30px;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    padding: 12px 0;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.port {
+    width: 200px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.port:last-child {
+    margin-bottom: 0;
+}
+
+.port-image {
+    width: 200px;
+    height: auto;
+}
+
+.two-columns {
+    width: 100%;
+    max-width: 600px;
+}
+
+#contact ul {
+    margin-bottom: 20px;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+input[type=text] {
+    display: block;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+input[type=email] {
+    display: block;
+    width: 100%;
+    border: 1px solid #dddddd;
+    height: 40px;
+    padding: 10px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    height: 160px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+h2:hover {
+    color:#FFA06F;
+}
+
+.wrapper {
+    margin: 0px 20px;
+}
+
+@media screen and (max-width: 980px) {
+    #main-page {
+        float: left;
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-page {
+        width: 100%;
+    }
+
+    #my-pic {
+        width: 50%;
+    }
+
+    .port {
+        width: 40%;
+    }
+
+    .port-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #main-page {
+        width: 100%;
+    }
+
+    #my-pic {
+        width: 100%;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    nav {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    #header {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .port {
+        width: 100%;
+    }
+
+    .port-image {
+        width: 100%;
+    }
+
+
+}
