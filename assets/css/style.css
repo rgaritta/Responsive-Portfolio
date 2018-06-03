@@ -48,6 +48,16 @@ a {
     font-weight: 700;
 }
 
+/**h2 a {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    
+  
+}**/
+
 a:hover {
     color: rgb(255, 145, 0);
 }
